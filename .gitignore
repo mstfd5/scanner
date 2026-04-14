@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+scan_report.json
+scan_report.csv
+.env
+.vscode/
+.idea/
