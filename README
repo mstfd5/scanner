@@ -44,11 +44,11 @@ python scanner.py 10.0.0.0/24 1-100 50
 ### Sample Output
 
 ```
-[+] Alive: 192.168.1.1
-[+] Alive: 192.168.1.42
-[+] 192.168.1.42:22 OPEN - SSH
-[+] 192.168.1.42:80 OPEN - HTTP
-[!] 192.168.1.42:445 OPEN - SMB - VULNERABLE! EternalBlue possible
+ Alive: 192.168.1.1
+ Alive: 192.168.1.42
+ 192.168.1.42:22 OPEN - SSH
+ 192.168.1.42:80 OPEN - HTTP
+ 192.168.1.42:445 OPEN - SMB - VULNERABLE! EternalBlue possible
 ```
 
 ## Architecture & Design Decisions
